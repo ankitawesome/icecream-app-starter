@@ -47,3 +47,46 @@ section.hero {
   transition: all 0.3s ease-in-out;
 }
 
+.btn-primary {
+  background-color: #fe5f1e;
+}
+
+.btn-primary:hover {
+  background-color: #b23301;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart {
+  background-color: #f8f8f8;
+}
+
+.cart .amount {
+  color: #fe5f1e;
+}
+
+.login {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.login a {
+  color: #fe5f1e;
+}
+
+.login a:hover {
+  color: #b23301;
+}
+
+.register {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.register a {
+  color: #fe5f1e;
+}
+
+.register a:hover {
+  color: #b23301;
+}
+

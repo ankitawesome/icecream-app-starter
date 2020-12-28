@@ -44,3 +44,36 @@ section.hero{
         transition:$smooth;
     }
 }
+.btn-primary{
+    background-color:$primary;
+    &:hover{
+        background-color:$primary-hover;
+        transition:$smooth;
+    }
+}
+.cart{
+    background-color:$secondary;
+    .amount{
+        color: $primary;
+    }
+}
+.login{
+    min-height:100vh;
+    background-color:$secondary;
+    a{
+        color: $primary;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
+}
+.register{
+    min-height:100vh;
+    background-color:$secondary;
+    a{
+        color: $primary;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
+}
