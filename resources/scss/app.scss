@@ -1,0 +1,46 @@
+@import './variable';
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    color:$dark;
+}
+
+nav li:last-child a{
+    background-color: $primary;
+    &:hover{
+        background-color:$primary-hover;
+    }
+}
+
+nav li a{
+    transition: $smooth;
+    &:hover{
+        color:$primary;
+    }
+}
+.line{
+    width:100%;
+    height:10px;
+    background-color:$extra;
+    border-radius:8px;
+  
+}
+section.hero{
+    background-color:$secondary;
+
+}
+.size{
+    background-color:$secondary;
+}
+.add-to-cart{
+    border:2px solid $primary;
+    color: $primary;
+    &:hover{
+        background: $primary;
+        border-color:$pure;
+        color: $pure;
+        transition:$smooth;
+    }
+}

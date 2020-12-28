@@ -1,0 +1,3 @@
+install laravel-mix @5.0.9
+
+next up develop the home page for the app
