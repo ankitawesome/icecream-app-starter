@@ -1,3 +1,6 @@
 install laravel-mix @5.0.9
 
 next up develop the home page for the app
+
+
+next up we have to build the placing an order page and functionality
